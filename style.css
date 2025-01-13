@@ -1,0 +1,155 @@
+body,html{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    overflow-wrap: normal;
+    position: relative;
+    background-image: url(https://wallpaperaccess.com/full/4124522.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 30s infinite ease-in-out;
+}
+.contentarea{
+    position: relative;
+    background-position: center;
+    top: 50%;
+    left: centre;
+    color: grey;
+    transform: -50%,-50%;
+}
+h2{
+    font-size: xx-large;
+    font-style: oblique;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+.wrapper p{
+    font-size: x-large;
+    font-style: "Jesrey 10" ;
+    color: red;
+}
+@keyframes change{
+    0%{
+        background-image: url(https://wallpaperaccess.com/full/4124522.jpg); width: 100%;height: 100%;
+    }
+    20%{
+        background-image: url(https://wallpaperaccess.com/full/2486353.jpg); width: 100%;height: 100%;
+    }
+    40%{
+        background-image: url(https://wallpaperaccess.com/full/2816910.png); width: 100%;height: 100%;
+    }
+    60%{
+        background-image: url(https://wallpapercave.com/wp/wp6877681.jpg); width: 100%;height: 100%;
+    }
+    80%{
+        background-image: url(https://i.pinimg.com/originals/1b/95/1a/1b951aab94b0d8656d426621cdbc4e6b.jpg);width: 100%;height: 100%;
+    }
+    100%{
+        background-image: url(https://wallpaperaccess.com/full/2486289.jpg); width: 100%;height: 100%;
+    }
+}
+.Home{
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    size: 50px;
+    margin-right: 70cqb;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    text-align: center;
+    font-family: "Jersey 10";
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(189, 6, 6, 0.699);
+    position: fixed;
+}
+.Logo{
+    width: 30%;
+    text-align: left;
+    line-height: 100px;
+    float: left;
+}
+.Logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "DM Serif Text", serif;
+    color: aliceblue;
+    letter-spacing:  4px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration:color(red green blue);
+    font-family: "Jersey 10",serif;
+    letter-spacing: 2px;
+    font-size:  30px;
+    color:lightcoral;
+    padding: 36px, 10px;
+    margin: 1 0px;
+    background-color: darkred;
+    border-radius: 10px;
+    border: 10px;
+}
+nav a :hover{
+    background: white;
+    color: black;
+    font-weight: 600;
+}
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+.banner-area{
+    background-image: url(https://wallpaperaccess.com/full/4124522.jpg);
+    background-size: cover;
+    top: 100%;
+    height: 100%;
+    position: fixed;
+}
+.jersey-10-regular {
+    font-family: "Jersey 10", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+h3{
+    text-decoration-color: crimson;
+    font-size: xx-large;
+    color: black;
+}
+.info p{
+    color: red;
+    font-size: x-large;
+    font-family: "Jersey 10";
+}
+.info{
+    position: relative;
+}
